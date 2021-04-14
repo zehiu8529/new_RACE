@@ -24,7 +24,10 @@ public class CheckPoint3D_Area : MonoBehaviour
 
         for (int i = 0; i < c_Collide.Length; i++) 
         {
-            c_Collide[i].gameObject.GetComponent<CheckPoint3D_Get>().Set_Next(this.t_Next);
+            if(c_Collide[i].gameObject.GetComponent<CheckPoint3D_Get>() != null)
+            {
+                c_Collide[i].gameObject.GetComponent<CheckPoint3D_Get>().Set_Next(this.t_Next);
+            }
         }
     }
 
