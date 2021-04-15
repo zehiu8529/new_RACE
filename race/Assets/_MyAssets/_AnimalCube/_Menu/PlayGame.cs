@@ -14,20 +14,6 @@ public class PlayGame : MonoBehaviour
 
     public void SetVolume(float volume)
     {
-<<<<<<< Updated upstream
-
-        
-        audioMixer.SetFloat("volume", volume);
-    }
-
-   
-   
-    // Start is called before the first frame update
-    public void playgame ()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-     
-=======
         audioMixer.SetFloat("volume", volume);
     }
 
@@ -44,7 +30,6 @@ public class PlayGame : MonoBehaviour
         cs_Scene.Set_PlayerPrefs("Volumn", f_Volumn);
         cs_Scene.Set_ChanceScene(s_ScenePlay);
         //SceneManager.LoadScene(s_ScenePlay);
->>>>>>> Stashed changes
     }
  
     public void Quit()
@@ -52,10 +37,7 @@ public class PlayGame : MonoBehaviour
         // thoát cmn game luôn nhưng mà đây là demo thôi
         Application.Quit();
     }
-
-
-
-  
+    
     // Update is called once per frame
     void Update()
     {
