@@ -5,9 +5,6 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
-
-
-
 public class PlayGame : MonoBehaviour
 {
     public AudioMixer audioMixer;
@@ -29,6 +26,7 @@ public class PlayGame : MonoBehaviour
         bool b_GetVolumn = audioMixer.GetFloat("volume", out f_Volumn);
         cs_Scene.Set_PlayerPrefs("Volumn", f_Volumn);
         cs_Scene.Set_ChanceScene(s_ScenePlay);
+        
         //SceneManager.LoadScene(s_ScenePlay);
     }
  
