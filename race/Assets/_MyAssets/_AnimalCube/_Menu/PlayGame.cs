@@ -17,7 +17,7 @@ public class PlayGame : MonoBehaviour
     public String s_ScenePlay = "_AnimalCube";
 
     // Start is called before the first frame update
-    public void playgame ()
+    public void playgame()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
@@ -26,19 +26,19 @@ public class PlayGame : MonoBehaviour
         bool b_GetVolumn = audioMixer.GetFloat("volume", out f_Volumn);
         cs_Scene.Set_PlayerPrefs("Volumn", f_Volumn);
         cs_Scene.Set_ChanceScene(s_ScenePlay);
-        
+
         //SceneManager.LoadScene(s_ScenePlay);
     }
- 
+
     public void Quit()
     {
         // thoát cmn game luôn nhưng mà đây là demo thôi
         Application.Quit();
     }
-    
+
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

@@ -591,6 +591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 4bd16c6fbe153164b80b4fe19beef4e6, type: 2}
+  s_ScenePlay: _AnimalCube
 --- !u!1 &379186176
 GameObject:
   m_ObjectHideFlags: 0
