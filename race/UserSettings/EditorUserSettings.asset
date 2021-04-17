@@ -8,6 +8,25 @@ EditorUserSettings:
     RecentlyUsedScenePath-0:
       value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
       flags: 0
+    RecentlyUsedScenePath-1:
+      value: 2242470311464676080019121c224637171a1d6439262f2434
+      flags: 0
+    RecentlyUsedScenePath-2:
+<<<<<<< Updated upstream
+      value: 224247031146466420172d3103264b03592839242525273c0e3c1f36addf1536ebea37e5c42f3d397717e1351027
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 224247031146466420172d3103264b03592839242525273c0e3c1f36adcd3136f7d73ae8fe1d3e313c4cfa320d2a18
+=======
+      value: 224247031146466420172d3103264b03592839242525273c0e3c1f36adcd3136f7d73ae8fe1d3e313c4cfa320d2a18
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 224247031146466420172d3103264b03592839242525273c0e3c1f36addf1536ebea37e5c42f3d397717e1351027
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 224247031146466420172d3103264b03592839242525273c0e3c1f36adf82139ecef3fece97512393717df300527263eff0f471ef8021e12
+>>>>>>> Stashed changes
+      flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
