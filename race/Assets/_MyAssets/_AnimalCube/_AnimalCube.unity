@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44824505, g: 0.49827188, b: 0.57558143, a: 1}
+  m_IndirectSpecularColor: {r: 0.4482447, g: 0.4982717, b: 0.57558084, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1575,7 +1575,6 @@ GameObject:
   - component: {fileID: 459148693}
   - component: {fileID: 459148696}
   - component: {fileID: 459148695}
-  - component: {fileID: 459148694}
   m_Layer: 5
   m_Name: Text (1)
   m_TagString: Untagged
@@ -1602,18 +1601,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1537, y: 497.031}
   m_SizeDelta: {x: -4741.315, y: -2694.367}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &459148694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 459148692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cb0f43df9d5b324b8b1ca5c4367d96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &459148695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3623,6 +3610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 4bd16c6fbe153164b80b4fe19beef4e6, type: 2}
+  s_SceneMenu: 
   s_ScenePlay: _AnimalCube
 --- !u!114 &936826046
 MonoBehaviour:
