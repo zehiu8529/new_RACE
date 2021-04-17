@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class PlayGame : MonoBehaviour
 {
     public AudioMixer audioMixer;
-
+    public string s_SceneMenu = "";
     public void SetVolume(float volume)
     {
         audioMixer.SetFloat("volume", volume);
@@ -36,8 +36,12 @@ public class PlayGame : MonoBehaviour
         Application.Quit();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Button_BackMenu()
+    {
+        Class_Scene cs_Scen = new Class_Scene(s_SceneMenu);
+    }
+// Update is called once per frame
+void Update()
     {
 
     }
